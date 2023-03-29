@@ -21,6 +21,10 @@ keymap.set("n", "<leader>tx", ":tabclose<CR>") --Close current tab
 keymap.set("n", "<leader>tn", ":tabn<CR>") --Next tab
 keymap.set("n", "<leader>tp", ":tabp<CR>") --Prev tab
 
+--Keep screen centered
+keymap.set("n", "j", "jzz")
+keymap.set("n", "k", "kzz")
+
 --Plugin keymappings
 
 --vim-maximizer
